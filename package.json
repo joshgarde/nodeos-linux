@@ -9,8 +9,9 @@
   "license": "MIT",
   "scripts": {
     "ci": "buho-SemaphoreCI",
-    "install": "scripts/install",
-    "prepublish": "nodeos-standard"
+    "install": "scripts/install.js",
+    "prepublish": "nodeos-standard",
+    "test": ""
   },
   "dependencies": {
     "download-manager": "^0.1.4"
